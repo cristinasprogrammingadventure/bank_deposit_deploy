@@ -3,3 +3,4 @@ scikit-learn
 pickle
 matplotlib
 numpy
+pandas

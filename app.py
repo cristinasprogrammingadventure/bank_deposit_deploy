@@ -1,9 +1,12 @@
-# Variables seleccionadas para el entreno del modelo elegido
+# Variables seleccionadas para el entreno del modelo random forest elegido
 # selected_features = ['campaign_ranges', 'balance', 'age', 'education', 'housing', 'loan', poutcome_success', 'pdays']
 
 import streamlit as st
+import sklearn
 import pickle
+import matplotlib
 import numpy as np
+import pandas as pd
 
 # Cargar el modelo
 with open('best_rf_model.pkl', 'rb') as model_file:

@@ -1,3 +1,12 @@
+# Variables seleccionadas para el entreno del modelo elegido:
+'''selected_features = ['campaign_ranges', 'balance', 'age', 'education', 'housing', 'loan', 
+                     'poutcome_success', 'pdays']
+X_train_selected = X_train[selected_features]
+X_test_selected = X_test[selected_features]
+
+rf_model = RandomForestClassifier(random_state=42), luego reentrenado con best_params según búsqueda con Grid Search'''
+
+# Importaión de librerías para su uso en Streamlit
 import streamlit as st
 import pickle
 import numpy as np
